@@ -17,8 +17,16 @@ body{
 .head3{
     font-size:40px;
 }
+.head4{
+    
+    font-size:35px;
+}
 span{
     color:orange;
+}
+.new{
+    color:tomato;
+    
 }
 .button1{
     text-decoration: none;
@@ -65,6 +73,13 @@ p{
     height:450px;
    
 }
+.section5{
+    display: flex;
+    background-image: url(images/shapes/shape-6.png);
+    height: 300px;
+    margin-left: 165px;
+    margin-top: 80px;
+}
 .div1{
     width: 50%;
     
@@ -74,6 +89,15 @@ p{
 }
 .div13{
     
+}
+.div15{
+    width: 50%;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+.div15 img{
+    width: 50%;
+    margin-left:-100px;
 }
 .div1 img{
     width: 50%;
@@ -138,7 +162,7 @@ p{
 
 footer{
     background-color: black;
-    height:150px;
+    height:200px;
     
 }
 footer h1{
@@ -147,7 +171,7 @@ footer h1{
     margin-top:100px;
     text-align:center;
     color:white;
-    margin-top: 10px;
+    margin-top: 30px;
 
 }
 footer p{
