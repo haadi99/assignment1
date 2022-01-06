@@ -7,6 +7,7 @@ body{
     border-left: 5px solid tomato;
     border-radius: 5px;
     margin-top: 120px;
+    padding-left: 10px;
     
 }
 .head2{
@@ -59,10 +60,9 @@ p{
     margin-top: 100px;
     background-image: url(images/shapes/shape-1.png);
     background-repeat:no-repeat;
-    
     background-size:250px;
-    background-position: right top 270px;
-    height:550px;
+    background-position: right top 180px;
+    height:450px;
    
 }
 .div1{
@@ -70,11 +70,17 @@ p{
     
 }
 .div12{
-    padding-right: 100px;
+    margin-left:50px;
+}
+.div13{
+    
 }
 .div1 img{
     width: 50%;
-    
+    margin-left:100px;
+}
+.div11 img{
+    width: 50%;
 }
 .div3{
     width:80%;
@@ -89,7 +95,12 @@ p{
     width:50%;
 }
 .div9 img{
-    width:100%;
+    width:120%;
+    margin-left:-100px;
+}
+.div10{
+    margin-left:80px;
+    
 }
 .div3img{
     background-color: lightblue;
@@ -116,16 +127,18 @@ p{
     width:500px;
 }
 .div9{
-    margin-left: 550px;
+    margin-left: 350px;
     width:40%;
     
 }
 .div8{
-    margin-left:-450px;
+    margin-left:-400px;
+    margin-right:70px;
 }
 
 footer{
     background-color: black;
+    height:150px;
     
 }
 footer h1{
@@ -133,6 +146,7 @@ footer h1{
     margin-top:100px;
     text-align:center;
     color:white;
+    margin-top: 10px;
 
 }
 footer p{
@@ -140,9 +154,13 @@ footer p{
     font-size:15px;
     color:white;
     height:80px;
+    margin-top:10px;
     
     
 }
 .fspan{
     color:red;
+}
+.foot{
+    padding-top:20px;
 }
